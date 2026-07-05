@@ -37,3 +37,7 @@ gem "base64", "~> 0.3.0"
 gem "webrick", "~> 1.9"
 
 gem "rexml", "~> 3.4"
+
+gem "jekyll-sass-converter", "~> 2.2"
+
+gem "sassc", "~> 2.4"
