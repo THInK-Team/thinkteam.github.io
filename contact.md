@@ -14,7 +14,7 @@ If interested to join our team, please reach out to Boris Vaisband by email with
 [thinkteam.uci@gmail.com](mailto:thinkteam.uci@gmail.com)
 
 ## Follow Us on LinkedIn
-To stay up to date on the latest news about our work, [follow the THInK Team on LinkedIn](https://www.linkedin.com/company/think-team-uci). 
+To stay up to date on the latest news about our work, [follow the THInK Team on LinkedIn](https://www.linkedin.com/company/thinkteam-uci){:target="_blank"}. 
 
 ## Office
 Samueli School of Engineering  \\

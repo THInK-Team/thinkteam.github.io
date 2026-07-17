@@ -12,7 +12,7 @@ tagline: The Heterogeneous Integration Knowledge Team.
 intro: |
   At THInK Team, we focus on enabling heterogeneous integration of systems. We deep dive into fine-pitch integration platforms and generate design methodologies, circuits, and EDA tools to increase system performance, reduce energy footprint, and enable novel applications. 
 
-  Our work can always be found on [Google Scholar](https://scholar.google.com/citations?user=hE2xGEMAAAAJ&hl=en).
+  Our work can always be found on [Google Scholar](https://scholar.google.com/citations?user=hE2xGEMAAAAJ&hl=en){:target="_blank"}.
 ---
 
 # THInK Team 

@@ -377,37 +377,16 @@ ol.publication-list {
   max-width: none;
 }
 
-/* ------------------------------------------------------------------ */
-/* Layout width & centering fixes                                      */
-/* ------------------------------------------------------------------ */
-
-/* `.grid-container` wraps every "home" layout page (Team, Publications,
-   Invited Talks, Contact) but has no CSS rule anywhere in this
-   stylesheet - it belongs to a newer USWDS bundle this site doesn't
-   import. Give it a sensible width and center it. */
-.grid-container {
-  max-width: 64rem; /* adjust to taste, e.g. 70rem for wider */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-/* These had a max-width but no auto margins, so they stuck to the
-   left edge of their (wide) parent instead of centering. */
-.citation-list-page,
-.invited-talks-list {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* USWDS caps paragraph/list width at 53rem on "page" layout content
-   (used by the Research page) with no centering. Let it use the full
-   column width instead. */
+/* USWDS caps body copy at $text-max-width (53rem = 530px, since $em-base
+   makes the root font-size 10px) inside `.usa-content`, which is on <main>
+   for both the `home` and `page` layouts. The .usa-grid container is 1040px
+   and already centered, so that cap is what makes subpages look left-shifted.
+   The USWDS selector uses :not(), so a plain `.usa-content p` override loses
+   on specificity no matter where it sits. Repeat the :not()s to match it. */
 .usa-content {
-  p,
-  ul,
-  ol {
+  p:not(.usa-font-lead),
+  ul:not(.usa-accordion):not(.usa-accordion-bordered),
+  ol:not(.usa-accordion):not(.usa-accordion-bordered) {
     max-width: none;
   }
 }
