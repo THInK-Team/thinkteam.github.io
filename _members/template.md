@@ -9,10 +9,10 @@ job_title: Visiting Scholar
 role: phd # postdoc, phd, ms-students, undergraduate, alumni
 
 services:
-  #home: https://member-website.com
-  #github: https://github.com/
-  #twitter: https://twitter.com/
-  #linked-in: https://www.linkedin.com/in/
+  #home: https://xxx.com
+  #github: https://github.com/xxx
+  #scholar: https://scholar.google.com/xxx
+  #linked-in: https://www.linkedin.com/in/xxx
   
 start: May 2020
 end:

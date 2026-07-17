@@ -11,7 +11,7 @@ role: phd # postdoc, phd, ms-students, undergraduate, alumni
 services:
   #home: https://member-website.com
   github: https://github.com/zeynepakcil
-  #twitter: https://twitter.com/
+  #scholar: https://scholar.com/
   linked-in: https://www.linkedin.com/in/zeynepakcil
   
 start: 2026

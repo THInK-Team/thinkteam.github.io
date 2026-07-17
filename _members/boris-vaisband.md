@@ -12,6 +12,7 @@ services:
   home: https://engineering.uci.edu/users/boris-vaisband
   #github: https://github.com/
   #twitter: https://twitter.com/
+  scholar: https://scholar.google.com/citations?user=hE2xGEMAAAAJ&hl=en
   linked-in: https://www.linkedin.com/in/boris-vaisband
   
 start: 2024
