@@ -28,7 +28,7 @@ brew install imagemagick
 
 For smaller edits, you can just use the editor on the github site, though it's still a good idea to save the edit to a branch.
 
-For larger edits, check out this repo locally. Our convention for branch names is `username/description`, so it's easy to tell whose contribution it is.
+For larger edits, check out this repo locally. 
 Run jekyll locally to get a preview of the site.
 
 ## Troubleshooting
@@ -44,12 +44,6 @@ sudo gem install nokogiri -v '1.6.8.1' -- --with-xml2-include=/Applications/Xcod
 The `scripts/` folder contains TypeScript automations for managing website
 content (e.g., creating or updating a publication). These scripts run via
 GitHub Actions in response to events like issue submissions.
-
-For example, submitting
-[./.github/ISSUE_TEMPLATE/new-member.yml](./.github/ISSUE_TEMPLATE/new-member.yml):
-
-- Triggers [`./.github/workflows/add-lab-member.yml`](./.github/workflows/add-lab-member.yml)
-- Calls [./scripts/create-hidive-member.ts](./scripts/create-hidive-member.ts)
 
 These scripts require [Deno](https://deno.land) but rarely need editing. Our CI
 enforces type checking, formatting, and linting.
