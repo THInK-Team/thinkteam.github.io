@@ -1,5 +1,5 @@
 /**
- * @module Export HIDIVE lab members (from '../_members/') to a CSV ('../assets/members.csv').
+ * @module Export lab members (from '../_members/') to a CSV ('../assets/members.csv').
  *
  * @see {@link LabMemberSchema} below for output schema.
  *
