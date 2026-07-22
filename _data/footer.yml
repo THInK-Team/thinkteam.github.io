@@ -1,3 +1,4 @@
+# TODO not used
 # Whether to show the "Return to top" link; can also be
 # configured as an object with 'text' and 'href' properties.
 # top: false
@@ -19,13 +20,3 @@
 #    <a href="https://engineering.uci.edu">UCI Samueli School of Engineering</a> /
 #    <a href="https://engineering.uci.edu/dept/eecs">Nhu Department of Electrical Engineering and Computer Science</a>
 
-# TODO delete
-# accessibility:
-#   policy:
-#     <div style="text-align:right">
-#       <em>
-#         <a href="/accessibility-statement/">HIDIVE Lab Accessibility Statement</a>
-#         |
-#         <a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy" target="_blank">Harvard Digital Accessibility Policy</a>
-#       </em>
-#     </div>
