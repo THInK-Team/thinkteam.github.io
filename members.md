@@ -57,7 +57,7 @@ subnav:
 
 <h2 id="alumni">Alumni</h2>
 <ul class="alumni-list">
-{% assign sorted_alumni = site.alumni | sort: "start_sort" | reverse %}
+{% assign sorted_alumni = site.alumni | sort: "start" | reverse %}
 {% for alum in sorted_alumni %}
   <li class="alumni-list-item">
     {% if alum.photo %}
@@ -74,7 +74,7 @@ subnav:
           </a>
         {% endif %}
       </div>
-      <p class="alumni-meta">{{ alum.job_title }} &middot; ({{ alum.start }}&ndash;{{ alum.end }})</p>
+      <p class="alumni-meta">{{ alum.job_title }} &middot; ({{ alum.start | slice: 0, 4 }}&ndash;{{ alum.end | slice: 0, 4 }})</p>
       {% if alum.next_position %}<p class="alumni-now">Next employment after THInK Team: {{ alum.next_position }}</p>{% endif %}
     </div>
   </li>
