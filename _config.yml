@@ -47,6 +47,7 @@ exclude:
   - _members/template.md
   - _projects/project-template.md
   - _themes/project-name.md
+  - _news/yyyy-mm-dd-template.md
   - .travis.yml
   - vendor
 
