@@ -549,3 +549,19 @@ main#main-content.usa-section:not(.usa-content) {
   margin-left: 0.4rem;
   vertical-align: -2px;
 }
+.alumni-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.alumni-meta {
+  margin: 0.15rem 0 0;
+  color: $color-gray-medium;
+  font-size: 0.95rem;
+}
+
+.alumni-now {
+  margin: 0.2rem 0 0;
+  font-size: 0.95rem;
+}

@@ -56,7 +56,7 @@ subnav:
 
 <h2 id="alumni">Alumni</h2>
 <ul class="alumni-list">
-{% assign sorted_alumni = site.alumni | sort: "end" | reverse %}
+{% assign sorted_alumni = site.alumni | sort: "start_sort" | reverse %}
 {% for alum in sorted_alumni %}
   <li class="alumni-list-item">
     {% if alum.photo %}

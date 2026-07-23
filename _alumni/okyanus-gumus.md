@@ -1,8 +1,8 @@
 ---
 title: Okyanus Gumus
 job_title: Former Undergraduate Volunteer
-start: Sept 2023
-end: Jan 2024
+start: 2023-09
+end: 2024-01
 next_position: ASIC Design Engineer at Microchip Technology
 linkedin: https://www.linkedin.com/in/okyanusgumus/
 photo: okyanus-gumus.png
