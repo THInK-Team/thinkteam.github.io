@@ -32,6 +32,7 @@ exclude:
   - _projects/project-template.md
   - _themes/project-name.md
   - _news/yyyy-mm-dd-template.md
+  - _alumni/template.md
   - .travis.yml
   - vendor
 
@@ -42,6 +43,8 @@ collections:
   themes:
     output: true
     permalink: /research/:path/
+  alumni:
+    output: false 
   members:
     output: true
     permalink: /team/:collection/:path/

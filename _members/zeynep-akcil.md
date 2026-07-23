@@ -6,7 +6,7 @@ photo: zeynep-akcil.jpeg # this file is relative to `assets/img/members/fullsize
 alt: An image of a woman smiling. # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: PhD Student
-role: phd # postdoc, phd, ms-students, undergraduate, alumni
+role: phd # postdoc, phd, ms-students, undergraduate
 
 services:
   #home: https://member-website.com

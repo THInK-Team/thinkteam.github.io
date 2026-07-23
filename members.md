@@ -25,7 +25,7 @@ subnav:
 ---
 # Team
 
-{% assign roles = 'pi:Principal Investigator/postdoc:Postdoctoral Fellows/phd:PhD Students/ms:MS Students/undergrad:Undergraduate Students/alumni:Alumni' | split: '/' %}
+{% assign roles = 'pi:Principal Investigator/postdoc:Postdoctoral Fellows/phd:PhD Students/ms:MS Students/undergrad:Undergraduate Students' | split: '/' %}
 
 {% for role in roles %}
 {% assign pair = role | split: ':' %}
@@ -54,16 +54,22 @@ subnav:
 </ul>
 {% endfor %}
 
-<!--<h2 id="alumni">Alumni</h2>
-<ul class="collaborators-and-alumni-lists members-rows">
-{% for member in site.members %}
-{% if member.role == "alumni" %}
-<li><a href="{{member.url}}">{{ member.title }}</a> ({{member.start}} - {{member.end}})<br>{{ member.job_title }}</li>
-{% endif %}
+<h2 id="alumni">Alumni</h2>
+<ul class="alumni-list">
+{% assign sorted_alumni = site.alumni | sort: "end" | reverse %}
+{% for alum in sorted_alumni %}
+  <li>
+    <strong>{{ alum.title }}</strong> — {{ alum.job_title }} ({{ alum.start }}–{{ alum.end }})
+    {% if alum.linkedin %}
+      <a href="{{ alum.linkedin }}" title="LinkedIn" aria-label="{{ alum.title }} on LinkedIn">
+        <img src="{{ '/assets/img/services/linked-in.svg' | relative_url }}" alt="LinkedIn" class="alumni-linkedin-icon">
+      </a>
+    {% endif %}
+    {% if alum.next %}<br>Now: {{ alum.next }}{% endif %}
+  </li>
 {% endfor %}
 </ul>
-
- <h2 id="collaborators">Collaborators</h2>
+<!-- <h2 id="collaborators">Collaborators</h2>
 <ul class="collaborators-and-alumni-lists members-rows">
 {% for member in site.data.collaborators %}
 <li><a href="{{member[1].url}}">{{ member[1].title }}</a><br>{{member[1].affiliation}}</li>

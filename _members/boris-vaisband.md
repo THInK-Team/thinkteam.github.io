@@ -6,7 +6,7 @@ photo: boris-vaisband.png # this file is relative to `assets/img/members/fullsiz
 alt: An image of a man smiling. # the alt text that describes this photo
 
 job_title: Assistant Professor of Electrical Engineering and Computer Science
-role: pi # postdoc, phd, ms-students, undergraduate, alumni
+role: pi # postdoc, phd, ms-students, undergraduate
 
 services:
   home: https://engineering.uci.edu/users/boris-vaisband
