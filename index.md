@@ -24,13 +24,17 @@ intro: |
   <h2>Latest News</h2>
   </div>
   <div class="usa-width-two-thirds">
-  {% assign latest_news = site.news | reverse | slice: 0,5 %}
+  <div class="news-box">
+  {% assign latest_news = site.news | reverse %}
   {% for news in latest_news %}
+    <div class="news-box-item">
     <h3>{{ news.title }}</h3>
       <p>
         <b>{{ news.date | date: "%-d %B %Y" }}</b> |
         {{ news.blurb }} <a href="{{ news.url | relative_url }}">More ...</a>
       </p>
+    </div>
   {% endfor %}
+  </div>
   </div>
 </div>

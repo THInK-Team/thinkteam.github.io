@@ -303,10 +303,6 @@ ol.publication-list {
   line-height: 1.5;
 }
 
-
-
-
-/* Wider citation/list pages without changing the whole site */
 .citation-list-page {
   max-width: 1050px;
 }
@@ -377,12 +373,6 @@ ol.publication-list {
   max-width: none;
 }
 
-/* USWDS caps body copy at $text-max-width (53rem = 530px, since $em-base
-   makes the root font-size 10px) inside `.usa-content`, which is on <main>
-   for both the `home` and `page` layouts. The .usa-grid container is 1040px
-   and already centered, so that cap is what makes subpages look left-shifted.
-   The USWDS selector uses :not(), so a plain `.usa-content p` override loses
-   on specificity no matter where it sits. Repeat the :not()s to match it. */
 .usa-content {
   p:not(.usa-font-lead),
   ul:not(.usa-accordion):not(.usa-accordion-bordered),
@@ -390,11 +380,6 @@ ol.publication-list {
     max-width: none;
   }
 }
-
-
-/* ------------------------------------------------------------------ */
-/* Site footer                                                         */
-/* ------------------------------------------------------------------ */
 
 .site-footer {
   margin-top: 4rem;
@@ -451,8 +436,6 @@ ol.publication-list {
   transform: translateY(-2px);
 }
 
-/* `fill: currentColor` beats the hardcoded fill="#000000" attribute on
-   home.svg, so every icon inherits the footer's grey and the hover colour. */
 .site-footer-icon {
   width: 1.8rem;
   height: 1.8rem;
@@ -476,4 +459,33 @@ ol.publication-list {
   .site-footer-social {
     justify-content: flex-end;
   }
+}
+
+.news-box {
+  max-height: 420px;
+  overflow-y: auto;
+  border: 1px solid $color-gray-lighter;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+}
+
+.news-box-item {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $color-gray-lighter;
+}
+
+.news-box-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.news-box-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.news-box-item p {
+  margin: 0;
 }
