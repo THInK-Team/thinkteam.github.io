@@ -381,6 +381,10 @@ ol.publication-list {
   }
 }
 
+main#main-content.usa-section:not(.usa-content) {
+  padding-top: 1.5rem;
+}
+
 .site-footer {
   margin-top: 4rem;
   padding: 2.5rem 0;
