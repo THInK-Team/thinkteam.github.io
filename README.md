@@ -33,7 +33,7 @@ This overwrites `_data/publications.yml` and `_data/invited-talks.yml` and commi
 
 ## Adding a team member
 
-Copy `_members/template.md` to `_members/yourfirst-yourlast.md`. Filename becomes that person's ID and it is used to link them to news posts, projects, and publications. 
+Copy `_members/template.md` to `_members/yourfirst-yourlast.md`. Filename becomes that person's ID and it is used to link them to news posts, projects, and publications.  
 Fill in the front matter: name, add and link your photo (goes in `assets/img/members/fullsize/`), job title, role, and start/end dates. 
 Write a short bio below the front matter.
 
