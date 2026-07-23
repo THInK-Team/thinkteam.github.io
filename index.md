@@ -8,7 +8,7 @@ hero:
   image: /assets/img/site/hero_entrance.jpg
 
 title: Home 
-tagline: "<span class='tagline-accent'>T</span>he<br><span class='tagline-accent'>H</span>eterogeneous<br><span class='tagline-accent'>I</span>ntegration<br><span class='tagline-accent'>K</span>nowledge<br><span class='tagline-accent'>T</span>eam."
+tagline: "<span class='tagline-accent'>T</span>he<br><span class='tagline-accent'>H</span>eterogeneous<br><span class='tagline-accent'>I</span>ntegration<br><span class='tagline-accent'>K</span>nowledge<br><span class='tagline-accent'>Team</span>."
 intro: |
   At THInK Team, we focus on enabling heterogeneous integration of systems. We deep dive into fine-pitch integration platforms and generate design methodologies, circuits, and EDA tools to increase system performance, reduce energy footprint, and enable novel applications. 
 
