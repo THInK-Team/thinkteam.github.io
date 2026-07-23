@@ -29,10 +29,11 @@ subnav:
 
 {% for role in roles %}
 {% assign pair = role | split: ':' %}
+{% assign role_members = site.members | where: "role", pair[0] | sort: "start" %}
+{% if role_members.size > 0 %}
 <h2 id="{{pair[0]}}">{{pair[1]}}</h2>
 <ul class="ul-no-bullets members-rows">
-{% for member in site.members %}
-{% if member.role == pair[0] %}
+{% for member in role_members %}
 <li class="member-photo-item">
   <div>
     <div class="member-photo-wrapper">
@@ -49,9 +50,9 @@ subnav:
     </div>
   </div>
 </li>
-{% endif %}
 {% endfor %}
 </ul>
+{% endif %}
 {% endfor %}
 
 <h2 id="alumni">Alumni</h2>
