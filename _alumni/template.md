@@ -1,6 +1,6 @@
 ---
 title: First Last
-job_title: PhD Student
+job_title: PhD Alumni
 start: Sept 2020
 end: June 2025
 next: Senior Hardware Engineer at Intel
