@@ -535,33 +535,34 @@ main#main-content.usa-section:not(.usa-content) {
 }
 
 .alumni-thumb {
-  width: 72px;
-  height: 72px;
-  min-width: 72px;
+  width: 88px;
+  height: 88px;
+  min-width: 88px;
   border-radius: 50%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.alumni-linkedin-icon {
-  height: 16px;
-  margin-left: 0.4rem;
-  vertical-align: -2px;
-}
 .alumni-name-row {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
+  font-size: 1.35rem;
 }
 
 .alumni-meta {
-  margin: 0.15rem 0 0;
+  margin: 0.2rem 0 0;
   color: $color-gray-medium;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .alumni-now {
-  margin: 0.2rem 0 0;
-  font-size: 0.95rem;
+  margin: 0.25rem 0 0;
+  font-size: 1.1rem;
+}
+
+.alumni-linkedin-icon {
+  height: 20px;
+  vertical-align: -3px;
 }
